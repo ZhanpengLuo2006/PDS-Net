@@ -24,6 +24,7 @@
 - [Overview](#overview)
 - [Highlights](#highlights)
 - [Model Architecture](#model-architecture)
+- [Model Weights](#model-weights)
 - [Dataset](#dataset)
 - [Experimental Results](#experimental-results)
 - [Environment Setup](#environment-setup)
@@ -86,6 +87,29 @@ Main ideas:
 1. **DSC3k2_PPA**: Enhances multi-scale feature extraction and attention-aware representation.
 2. **DySample**: Introduces dynamic upsampling to better recover spatial details during feature fusion.
 3. **YOLOv13 detection framework**: Maintains an end-to-end object detection pipeline with a good balance between accuracy and deployment efficiency.
+
+---
+
+## Model Weights
+
+The trained model weights are not included directly in this repository. The model weights can be obtained from the following Baidu Netdisk share:
+
+```text
+Shared file: weight
+Link: https://pan.baidu.com/s/1Tanc-zAQbbhc8tZU6nWe6Q?pwd=neau
+Extraction code: neau
+Source note: shared from Baidu Netdisk Super Member v3
+```
+
+After downloading, place the `weight` folder in the project root, for example:
+
+```text
+PDS-Net/
+└── weight/
+    ├── DSC3k2_PPA+DySample_best.pt
+    ├── DSC3k2_PPA+DySample_last.pt
+    └── ...
+```
 
 ---
 
