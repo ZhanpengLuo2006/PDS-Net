@@ -114,6 +114,17 @@ PDS-Net/
 
 ## 数据集
 
+数据集可通过百度网盘获取：
+
+```text
+通过网盘分享的文件：rice_leaf_diseasev1
+链接：https://pan.baidu.com/s/1ualoDg5uzVxUZq5jbIfA-g?pwd=neau
+提取码：neau
+--来自百度网盘超级会员v3的分享
+```
+
+下载后请将数据集整理为下方 YOLO 格式目录，并放置在项目根目录的 `dataset/` 文件夹下。
+
 数据集配置文件位于：
 
 ```text
