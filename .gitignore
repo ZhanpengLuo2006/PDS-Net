@@ -1,0 +1,72 @@
+# Data and large files
+/dataset/
+/wyz123___cropper/
+/**/*.pt
+/**/*.pth
+/**/*.onnx
+/**/*.engine
+/**/*.torchscript
+/**/*.tflite
+/**/*.pb
+/**/*.bin
+/**/*.safetensors
+
+# Training and inference outputs
+/runs/
+/outputs/
+/output/
+/tmp/
+/wandb/
+/mlruns/
+/.tensorboard/
+/yolov13-main/runs/
+/yolov13-main/wandb/
+/yolov13-main/datasets/
+/experient results/ablation/
+/experient results/baseline/
+/experient results/**/weights/
+/experient results/**/train*/
+/experient results/**/val*/
+/experient results/**/predict*/
+events.out.tfevents.*
+
+# Local validation logs and one-off utility scripts not needed for release
+/validation_model_log.csv
+/validation_model_log.txt
+/check_rtdetr_resnet50_complexity.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temporary and manuscript drafts
+~$*.docx
+~$*.pptx
+~$*.xlsx
+/基础文件/
+/画图/
+
+# Local generated archives/logs that are not needed for source release
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
