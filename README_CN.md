@@ -24,6 +24,7 @@
 - [项目概述](#项目概述)
 - [主要特点](#主要特点)
 - [模型结构](#模型结构)
+- [模型权重](#模型权重)
 - [数据集](#数据集)
 - [实验结果](#实验结果)
 - [环境配置](#环境配置)
@@ -85,6 +86,29 @@ experient results/ablation/DSC3k2_PPA+DySample/weights/best.pt
 1. **DSC3k2_PPA**：增强多尺度特征提取与注意力表达能力。
 2. **DySample**：采用动态上采样方式，提升特征融合阶段的空间细节恢复能力。
 3. **YOLOv13 检测框架**：保持端到端检测流程，兼顾精度、速度和部署友好性。
+
+---
+
+## 模型权重
+
+本项目训练得到的模型权重文件未直接包含在仓库中，模型权重从这里获取：
+
+```text
+通过网盘分享的文件：weight
+链接：https://pan.baidu.com/s/1Tanc-zAQbbhc8tZU6nWe6Q?pwd=neau
+提取码：neau
+--来自百度网盘超级会员v3的分享
+```
+
+下载后请将 `weight` 文件夹放置在项目根目录下，例如：
+
+```text
+PDS-Net/
+└── weight/
+    ├── DSC3k2_PPA+DySample_best.pt
+    ├── DSC3k2_PPA+DySample_last.pt
+    └── ...
+```
 
 ---
 
