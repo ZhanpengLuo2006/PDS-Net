@@ -115,6 +115,17 @@ PDS-Net/
 
 ## Dataset
 
+The dataset can be obtained from the following Baidu Netdisk share:
+
+```text
+Shared file: rice_leaf_diseasev1
+Link: https://pan.baidu.com/s/1ualoDg5uzVxUZq5jbIfA-g?pwd=neau
+Extraction code: neau
+Source note: shared from Baidu Netdisk Super Member v3
+```
+
+After downloading, organize the dataset in the YOLO format shown below and place it under the `dataset/` folder in the project root.
+
 Dataset configuration file:
 
 ```text
