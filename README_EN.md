@@ -95,8 +95,8 @@ Main ideas:
 The trained model weights are not included directly in this repository. The model weights can be obtained from the following Baidu Netdisk share:
 
 ```text
-Shared file: Datasets_cropper
-Link: https://pan.baidu.com/s/19oV1KzR-iWMNgyFUOlFVig?pwd=neau
+Shared file: weight
+Link: https://pan.baidu.com/s/1Tanc-zAQbbhc8tZU6nWe6Q?pwd=neau
 Extraction code: neau
 Source note: shared from Baidu Netdisk Super Member v3
 ```
@@ -118,8 +118,8 @@ PDS-Net/
 The dataset can be obtained from the following Baidu Netdisk share:
 
 ```text
-Shared file: rice_leaf_diseasev1
-Link: https://pan.baidu.com/s/1ualoDg5uzVxUZq5jbIfA-g?pwd=neau
+Shared file: Datasets_cropper
+Link: https://pan.baidu.com/s/19oV1KzR-iWMNgyFUOlFVig?pwd=neau
 Extraction code: neau
 Source note: shared from Baidu Netdisk Super Member v3
 ```
